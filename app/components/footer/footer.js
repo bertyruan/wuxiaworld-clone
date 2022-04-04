@@ -1,5 +1,8 @@
 
 import { $loadFile } from '../../shared/scripts/loadFile.js';
 
-$loadFile('./footer.html', import.meta.url).then(console.log);
-$loadFile('./footer.css', import.meta.url).then(console.log);
+
+const html = await $loadFile('./footer.html', import.meta.url);
+const css = await $loadFile('./footer.css', import.meta.url);
+console.log(html);
+console.log(css);
