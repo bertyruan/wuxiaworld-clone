@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', function(req, res) {
-  res.send('Hello Wuxiaworld Server!')
+  res.send('Hello Wuxiaworld Server 2!')
 });
 
 app.listen(port, function() {
