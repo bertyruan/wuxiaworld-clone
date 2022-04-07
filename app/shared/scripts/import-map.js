@@ -1,7 +1,8 @@
 function setupImportMap() {
     const importMap = {
         "imports": {
-            "scripts/": "/app/shared/scripts/"
+            "scripts/": "/app/shared/scripts/",
+            "nav": "/app/components/nav/nav.js"
         }
     }
     const script = document.createElement('script');
