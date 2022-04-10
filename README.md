@@ -17,4 +17,4 @@ const css = await $loadFile('./footer.css', import.meta.url);
 
 ## Code Style
 
-`npx prettier --write .`
+`npx prettier --write app`

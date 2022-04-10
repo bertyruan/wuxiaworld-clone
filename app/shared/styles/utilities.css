@@ -14,3 +14,106 @@
 .push-right {
   margin-left: auto;
 }
+
+/* Color */
+/* light theme */
+.background-colors{
+  border-color: #e5e5e5;
+  /* white */
+  background-color: rgb(255, 255, 255); 
+  /* light green */
+  background-color: rgb(240 249 250 / var(--tw-bg-opacity)); 
+  /* grey */
+  background-color: rgb(246, 246, 246);
+
+  /* light blue */
+  color: rgb(18 122 254 / var(--tw-text-opacity));
+
+  /* blue gradient */
+  background: linear-gradient(to right, rgb(28, 157, 254), rgb(18, 122, 254) 38%, rgb(2, 67, 255) 99%);
+  background-image: linear-gradient(131.45deg,#20A7FE,#003AFF);
+}
+
+.font-colors {
+  /* dark */
+  color: rgb(33, 33, 33);
+  /* light */
+  color: rgb(136 136 136 / var(--tw-text-opacity));
+  /* white */
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  /* black */
+  color: rgb(0, 0, 0);
+  /* grey */
+  color: rgb(135 135 135 / var(--tw-text-opacity));
+
+}
+
+.btn:disabled {
+  color: rgb(136, 136, 136);
+  background: rgb(215, 215, 215);
+}
+
+.shadow {
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 2px 8px 0 rgba(0, 0, 0, .16);
+  --tw-shadow-colored: 0 2px 8px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+/* fonts  */
+
+.font-size {
+  /* h2 logo: 18px, weight 600 */
+  /* nav: 16px, weight 700 */
+  /* h3 headers 21px, weight 600 */
+}
+
+.l-font {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 600px) {
+  .l-font {
+    font-size: 21px;
+  }
+}
+
+.m-font {
+  font-size: 16px;
+}
+
+.s-font,
+.xxs-font {
+  /* min-width: 600px */
+  font-size: 13px;
+}
+
+@media screen and (min-width: 900px) {
+  .s-font {
+    font-size: 14px;
+  }
+}
+
+.l-line-height {
+  line-height: 1.25;
+}
+
+.m-line-height {
+  line-height: 1;
+}
+
+
+/* Layout */
+
+.padding-values {
+  /* 0 8,10,12,16,20,24,30,40 */
+}
+
+.margin-values {
+/* 0 5 8 10 12 16 20 24 30 */
+}
+
+.layout {
+/* we'll do that after we get some code in... */
+}
