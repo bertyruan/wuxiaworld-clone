@@ -9,34 +9,31 @@
 
 /* utility classes */
 .background-color-blue {
-    background-color: var(--background-color-blue);
+  background-color: var(--background-color-blue);
 }
 
 .background-color-blue-gradient {
-    background-color: var(--blue-linear-gradient)
+  background-color: var(--blue-linear-gradient);
 }
-
-
 
 /* Background Themes */
 .background-color-body-theme {
-    background-color: var(--background-color-body);
+  background-color: var(--background-color-body);
 }
 
 .background-color-nav-theme {
-    background-color: var(--nav-color);
+  background-color: var(--nav-color);
 }
 
 .background-color-announcement-theme {
-    background-color: var(--background-color-announcements);
+  background-color: var(--background-color-announcements);
 }
 
 .background-color-ongoing-releases-theme {
-    background-color: var(--background-color-ongoing-releases);
+  background-color: var(--background-color-ongoing-releases);
 }
-
 
 /* Font color Themes */
 .font-color-body-theme {
-    color: var(--font-color-body);
+  color: var(--font-color-body);
 }

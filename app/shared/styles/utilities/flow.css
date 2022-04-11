@@ -3,23 +3,22 @@
     Create the flow utility classes as you go. 
 */
 
-
 .margin-inline-size-2 {
-    margin-inline: var(--size-2);
+  margin-inline: var(--size-2);
 }
 
 .margin-inline-size-1 {
-    margin-inline: var(--size-1);
+  margin-inline: var(--size-1);
 }
 
 .margin-inline-size0 {
-    margin-inline: var(--size0);
+  margin-inline: var(--size0);
 }
 
 .margin-inline-size1 {
-    margin-inline: var(--size1);
+  margin-inline: var(--size1);
 }
 
 .margin-inline-size2 {
-    margin-inline: var(--size2);
+  margin-inline: var(--size2);
 }
