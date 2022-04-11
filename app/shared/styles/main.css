@@ -2,3 +2,11 @@
 @import 'variables.css';
 @import 'globals.css';
 
+/* utitilities */
+@import 'utilities/colors.css';
+@import 'utilities/flow.css';
+@import 'utilities/fonts.css';
+@import 'utilities/layouts.css';
+
+/* theme */
+@import 'utilities/theme.css';

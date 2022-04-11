@@ -1,1 +1,72 @@
-/* font sizes, font family, font color,  */
+/* 
+    This is a template to get you started
+    Create the font utility classes as you go. 
+
+    Font colors are in colors.css
+*/
+
+/* font-weight */
+.font-weight-normal {
+    font-weight: var(--font-weight-normal);
+}
+
+.font-weight-semi-bold {
+    font-weight: var(--font-weight-semi-bold);
+}
+
+.font-weight-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+
+/* font-size */
+.font-size-12 {
+    font-size: var(--font-size-12);
+}
+
+.font-size-14 {
+    font-size: var(--font-size-14);
+}
+
+.font-size-16 {
+    font-size: var(--font-size-16);
+}
+
+.font-size-18 {
+    font-size: var(--font-size-18);
+}
+
+.font-size-21 {
+    font-size: var(--font-size-21);
+}
+
+
+
+/* Line height */
+.line-height-size-1 {
+    line-height: var(--line-height-size-1);
+}
+
+.line-height-size0 {
+    line-height: var(--line-height-size0);
+}
+
+.line-height-size1 {
+    line-height: var(--line-height-size1);
+}
+
+.line-height-size2 {
+    line-height: var(--line-height-size2);
+}
+
+.line-height-size3 {
+    line-height: var(--line-height-size3);
+}
+
+.line-height-size4 {
+    line-height: var(--line-height-size4);
+}
+
+.line-height-size5 {
+    line-height: var(--line-height-size5);
+}

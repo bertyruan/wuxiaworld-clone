@@ -1,0 +1,27 @@
+/* 
+
+    This is a template to get you started
+    Define any other theme colors as you go. 
+    
+    All variables are stored in
+    - variables.css
+
+    The 'data-theme' attribute is set in the body tag of each html page (not component)*/
+
+[data-theme='light'] {
+    --background-color-body: var(--color-white);
+    --background-color-nav: var(--color-white);
+    --background-color-announcements: var(--color-light-grey);
+    --background-color-ongoing-releases: var(--color-light-green);
+
+    --font-color-body: var(--color-white);
+}
+
+[data-theme='dark'] {
+    --background-color-body: var(--color-black-30);
+    --background-color-nav: var(--color-black-50);
+    --background-color-announcements: var(--color-black-20);
+    --background-color-ongoing-releases: var(--color-black-40);
+
+    --font-color-body: var(--color-black-0);
+}
