@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} /*basic stuff here*/
+
+body {
+  min-height: 100vh;
+  background-color: rgb(22, 22, 22);
+  color: #fff;
+  font-family: sans-serif;
+}
+/*basic  stuff with just random colors, and font family till we deal about what we will use*/
+img {
+  width: 148px;
+  height: 213px;
+  display: block;
+}/* to be same as on wuxia website*/
+
+.container {
+  margin-top: 2rem;
+  max-width: 75rem;
+  display: flex;
+  margin-inline: auto;
+  padding-inline: 2em;
+  /* left and right side when we use inline instead of writing padding left or padding right*/
+}/* here i added max with of 75 rem, but also we will deal about it and just put flex, so all will be in row */
+
+.first-part {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/* just heading with some basic stuuf there*/
+
+.btn {
+  display: flex;
+  justify-self: flex-end;
+  font-family: inherit;
+}/* for that two buttons on the top right side*/
+
+button {
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0.7em;
+  border-radius: 50%;
+  border: 1px solid rgb(122, 122, 131);
+  background-color: rgb(22, 22, 22);
+  color: rgb(122, 122, 131);
+  height: 40px;
+  width: 40px;
+} /* also colors and other stuff here should change, i just make how shuld look */
+
+button:hover {
+  background-color: rgb(122, 122, 131);
+  color: #fff;
+  border: 1px solid rgb(28, 28, 234);
+}
+/* same about colors*/
+
+/* should make an active class */
+.images {
+  padding: 2rem;
+  justify-content: space-between;
+} /*to have some space between them*/
+
+.image-block {
+  position: relative;
+} /* here i put postion relative and after absolute cause this is contaner parent for images, its figure tag*/ 
+
+.text-block {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  color: #fff;
+  text-align: start;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 5px;
+}
+/* for text  on picture*/
+
+figcaption {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.title,
+.likes {
+  margin-top: 0.313rem;
+}
+
+.number {
+  position: absolute;
+  bottom: 35px;
+  left: -30px;
+  font-size: 550%;
+  font-weight: 800;
+
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+
+  font-family: sans;
+  color: #000;
+}
+/* here some style for numbers who are connected with images, and text shadowc cause on their site they have that colors and all of it together*/
+
+
+/* this images for smalll screen what ive noticed are not responsive, so I dont know what should we do on that part*/
