@@ -1,3 +1,35 @@
 :root {
     --font-family: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
 }
+
+
+/* FLOW ratios */
+:root {
+    --ratio: 1.2;
+    --s-5: calc(var(--s-4) / var(--ratio));
+    --s-4: calc(var(--s-3) / var(--ratio));
+    --s-3: calc(var(--s-2) / var(--ratio));
+    --s-2: calc(var(--s-1) / var(--ratio));
+    --s-1: calc(var(--s0) / var(--ratio));
+    --s0: 12px;
+    --s1: 14.4px;
+    --s2: 17.28px;
+    --s3: calc(var(--s2) * var(--ratio));
+    --s4: calc(var(--s3) * var(--ratio));
+    --s5: calc(var(--s4) * var(--ratio));
+    --s6: calc(var(--s5) * var(--ratio));
+}
+
+
+/* FONT sizes */
+:root {
+    --size--1: ;
+}
+
+[theme='light'] {
+    --background-color: var(--white);
+}
+
+[theme='dark'] {
+    --background-color: var(--black);
+}

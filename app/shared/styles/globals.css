@@ -1,3 +1,8 @@
 :root {
     font-family: var(--font-family);
 }
+
+button:disabled {
+  color: rgb(136, 136, 136);
+  background: rgb(215, 215, 215);
+}
