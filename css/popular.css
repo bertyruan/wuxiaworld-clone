@@ -26,14 +26,14 @@ img {
   /* left and right side when we use inline instead of writing padding left or padding right*/
 }/* here i added max with of 75 rem, but also we will deal about it and just put flex, so all will be in row */
 
-.first-part {
+.first__section {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }/* just heading with some basic stuuf there*/
 
-.btn {
+.btn__arrow {
   display: flex;
   justify-self: flex-end;
   font-family: inherit;
@@ -59,16 +59,16 @@ button:hover {
 /* same about colors*/
 
 /* should make an active class */
-.images {
+.container__images {
   padding: 2rem;
   justify-content: space-between;
 } /*to have some space between them*/
 
-.image-block {
+.image__block {
   position: relative;
 } /* here i put postion relative and after absolute cause this is contaner parent for images, its figure tag*/ 
 
-.text-block {
+.text__block {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -86,12 +86,11 @@ figcaption {
   margin-top: 1rem;
 }
 
-.title,
-.likes {
+.title__block, .title__likes {
   margin-top: 0.313rem;
 }
 
-.number {
+.number__block {
   position: absolute;
   bottom: 35px;
   left: -30px;
