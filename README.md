@@ -1,5 +1,18 @@
 # [wuxiaworld.com](wuxiaworld.com) clone - group project
 
+## CSS style guide
+
+1. We will be using utility class first 
+2. We will be using the BEM naming convention
+
+### Utility class naming convension 
+
+```css
+.[property-name]-[value-name] {
+    property-name: value-name;
+}
+```
+
 ## How to import html and css files
 ```
 import { $loadFile } from 'scripts/loadFile.js';
