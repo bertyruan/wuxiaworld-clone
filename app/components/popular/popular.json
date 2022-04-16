@@ -1,5 +1,5 @@
 {
-"first-six": [
+"popular-this-week": [
 {
     "name": "Overgearder",
     "images": {
@@ -47,10 +47,8 @@
     },
     "number": "6",
     "likes": "80%"
-}
-],
-"second-six": [
-    {
+},
+ {
         "name": "The Regressed Demon Lord is Kind",
         "images": {
             "png":"./images/rdk.png"
