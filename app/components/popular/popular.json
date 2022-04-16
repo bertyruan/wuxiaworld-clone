@@ -1,0 +1,102 @@
+{
+"first-six": [
+{
+    "name": "Overgearder",
+    "images": {
+        "png":"./images/pic.png"
+    },
+    "number": "1",
+    "likes": "88%"
+},
+{
+    "name": "Emperor's Domination",
+    "images": {
+        "webp":"./images/pic.png"
+    },
+    "number": "2",
+    "likes": "76%"
+},
+{
+    "name": "Nine Star Hegemon Body Art",
+    "images": {
+        "webp":"./images/pic.png"
+    },
+    "number": "3",
+    "likes": "70%"
+},
+{
+    "name": "Martial God Asura",
+    "images": {
+        "webp":"./images/mga.webp"
+    },
+    "number": "4",
+    "likes": "47%"
+},
+{
+    "name": "Invincible",
+    "images": {
+        "webp":"./images/pic.png"
+    },
+    "number": "5",
+    "likes": "56%"
+},
+{
+    "name": "Second Life Ranker",
+    "images": {
+        "webp":"./images/slr.webp"
+    },
+    "number": "6",
+    "likes": "80%"
+}
+],
+"second-six": [
+    {
+        "name": "The Regressed Demon Lord is Kind",
+        "images": {
+            "png":"./images/pic.png"
+        },
+        "number": "7",
+        "likes": "92%"
+    },
+    {
+        "name": "Keyboard Immortal",
+        "images": {
+            "webp":"./images/pic.png"
+        },
+        "number": "8",
+        "likes": "76%"
+    },
+    {
+        "name": "Absolute Resonance",
+        "images": {
+            "webp":"./images/ar.webp"
+        },
+        "number": "9",
+        "likes": "75%"
+    },
+    {
+        "name": "Almighty Sword Domain",
+        "images": {
+            "webp":"./images/pic.png"
+        },
+        "number": "10",
+        "likes": "51%"
+    },
+    {
+        "name": "Against the Gods",
+        "images": {
+            "webp":"./images/atg.webp"
+        },
+        "number": "11",
+        "likes": "76%"
+    },
+    {
+        "name": "Star Odyssey",
+        "images": {
+            "webp":"./images/pic.png"
+        },
+        "number": "12",
+        "likes": "74%"
+    }
+]
+}
