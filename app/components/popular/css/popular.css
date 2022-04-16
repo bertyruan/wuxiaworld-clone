@@ -105,10 +105,10 @@ img {
   margin-top: 1rem;
 }
 
-.popular__caption--title,
-.popular__caption--likes {
+/*.title,
+.likes {
   margin-top: 0.313rem;
-}
+}*/
 
 .popular__text--number {
   position: absolute;

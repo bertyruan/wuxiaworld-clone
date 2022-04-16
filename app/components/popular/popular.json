@@ -11,7 +11,7 @@
 {
     "name": "Emperor's Domination",
     "images": {
-        "webp":"./images/pic.png"
+        "png":"./images/emperor.png"
     },
     "number": "2",
     "likes": "76%"
@@ -19,7 +19,7 @@
 {
     "name": "Nine Star Hegemon Body Art",
     "images": {
-        "webp":"./images/pic.png"
+        "png":"./images/nshba.png"
     },
     "number": "3",
     "likes": "70%"
@@ -35,7 +35,7 @@
 {
     "name": "Invincible",
     "images": {
-        "webp":"./images/pic.png"
+        "png":"./images/inv.png"
     },
     "number": "5",
     "likes": "56%"
@@ -53,7 +53,7 @@
     {
         "name": "The Regressed Demon Lord is Kind",
         "images": {
-            "png":"./images/pic.png"
+            "png":"./images/rdk.png"
         },
         "number": "7",
         "likes": "92%"
@@ -61,7 +61,7 @@
     {
         "name": "Keyboard Immortal",
         "images": {
-            "webp":"./images/pic.png"
+            "png":"./images/ki.png"
         },
         "number": "8",
         "likes": "76%"
@@ -77,7 +77,7 @@
     {
         "name": "Almighty Sword Domain",
         "images": {
-            "webp":"./images/pic.png"
+            "png":"./images/asd.png"
         },
         "number": "10",
         "likes": "51%"
@@ -93,7 +93,7 @@
     {
         "name": "Star Odyssey",
         "images": {
-            "webp":"./images/pic.png"
+            "png":"./images/so.png"
         },
         "number": "12",
         "likes": "74%"
