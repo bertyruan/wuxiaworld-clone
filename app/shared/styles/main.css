@@ -1,4 +1,13 @@
 @import 'reset.css';
 @import 'variables.css';
 @import 'globals.css';
-@import 'utilities.css';
+
+/* theme */
+@import 'utilities/theme.css';
+
+/* utitilities */
+@import 'utilities/colors.css';
+@import 'utilities/flow.css';
+@import 'utilities/fonts.css';
+@import 'utilities/layouts.css';
+

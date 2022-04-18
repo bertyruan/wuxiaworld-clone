@@ -25,13 +25,13 @@ class DemoComponent extends HTMLElement {
     `;
   }
 
+  /*
+    FOR INPUTS...i.e.
+    <demo-component data='[1,2,3]'></demo-component>
+  */
   get data() {
       return this.getAttribute('data') || null;
   }
-
-//   connectedCallback() {
-//     this.innerHTML = this.render();
-//   }
 }
 
 customElements.define('demo-component', DemoComponent);
