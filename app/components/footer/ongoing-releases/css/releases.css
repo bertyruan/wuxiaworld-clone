@@ -51,7 +51,7 @@
 
 .list-of-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(101px, 1fr));
+  grid-template-columns: repeat(3, 101px);
   grid-gap: 24px 14px;
   justify-content: center;
 }
