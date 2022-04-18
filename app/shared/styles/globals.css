@@ -1,8 +1,11 @@
 :root {
-    font-family: var(--font-family-open-sans);
+  font-family: var(--font-family-open-sans);
 }
 
 button:disabled {
   color: rgb(136, 136, 136);
   background: rgb(215, 215, 215);
+}
+
+.shadow {
 }
