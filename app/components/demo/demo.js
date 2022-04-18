@@ -4,25 +4,15 @@ const html = await $loadFile('./demo.html', import.meta.url);
 const css = await $loadFile('./demo.css', import.meta.url);
 
 class DemoComponent extends HTMLElement {
-  constructor() {
-    super();
-    const template = this.render();
-    this.attachShadow({mode: 'open'});
-    this.shadowRoot.appendChild(template.cloneNode(true));
-  }
-
   render() {
-    console.log(this.html);
-    const template = document.createElement('template');
-    template.innerHTML = this.html;
-    return template.content;
+    return `
+            <style>${css}</style>
+            ${html}
+        `;
   }
 
-  get html() {
-      return /* html */`
-        <style>${css}</style>
-        ${html}
-    `;
+  connectedCallback() {
+    this.innerHTML = this.render();
   }
 
   /*
@@ -30,7 +20,7 @@ class DemoComponent extends HTMLElement {
     <demo-component data='[1,2,3]'></demo-component>
   */
   get data() {
-      return this.getAttribute('data') || null;
+    return this.getAttribute('data') || null;
   }
 }
 
