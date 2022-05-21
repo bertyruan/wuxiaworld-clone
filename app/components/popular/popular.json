@@ -1,5 +1,5 @@
 {
-"popular-this-week": [
+"popularThisWeek": [
 {
     "name": "Overgearder",
     "images": {
@@ -27,7 +27,7 @@
 {
     "name": "Martial God Asura",
     "images": {
-        "webp":"./images/mga.webp"
+        "png":"./images/mga.webp"
     },
     "number": "4",
     "likes": "47%"
@@ -43,7 +43,7 @@
 {
     "name": "Second Life Ranker",
     "images": {
-        "webp":"./images/slr.webp"
+        "png":"./images/slr.webp"
     },
     "number": "6",
     "likes": "80%"
@@ -67,7 +67,8 @@
     {
         "name": "Absolute Resonance",
         "images": {
-            "webp":"./images/ar.webp"
+            "png":"./images/ar.webp"
+
         },
         "number": "9",
         "likes": "75%"
@@ -83,7 +84,7 @@
     {
         "name": "Against the Gods",
         "images": {
-            "webp":"./images/atg.webp"
+            "png":"./images/atg.webp"
         },
         "number": "11",
         "likes": "76%"
