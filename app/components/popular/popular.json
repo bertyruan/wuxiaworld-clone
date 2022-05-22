@@ -6,7 +6,8 @@
         "png":"./images/pic.png"
     },
     "number": "1",
-    "likes": "88%"
+    "likes": "88%",
+    "alt":"Overgearder"
 },
 {
     "name": "Emperor's Domination",
@@ -14,7 +15,8 @@
         "png":"./images/emperor.png"
     },
     "number": "2",
-    "likes": "76%"
+    "likes": "76%",
+    "alt": "Emperor's Domination"
 },
 {
     "name": "Nine Star Hegemon Body Art",
@@ -22,7 +24,9 @@
         "png":"./images/nshba.png"
     },
     "number": "3",
-    "likes": "70%"
+    "likes": "70%",
+    
+    "alt": "Nine Star Hegemon Body Art"
 },
 {
     "name": "Martial God Asura",
@@ -30,7 +34,8 @@
         "png":"./images/mga.webp"
     },
     "number": "4",
-    "likes": "47%"
+    "likes": "47%",
+    "alt": "Martial God Asura"
 },
 {
     "name": "Invincible",
@@ -38,7 +43,8 @@
         "png":"./images/inv.png"
     },
     "number": "5",
-    "likes": "56%"
+    "likes": "56%",
+    "alt": "Invincible"
 },
 {
     "name": "Second Life Ranker",
@@ -46,7 +52,8 @@
         "png":"./images/slr.webp"
     },
     "number": "6",
-    "likes": "80%"
+    "likes": "80%",
+    "alt": "Second Life Ranker"
 },
  {
         "name": "The Regressed Demon Lord is Kind",
@@ -54,7 +61,8 @@
             "png":"./images/rdk.png"
         },
         "number": "7",
-        "likes": "92%"
+        "likes": "92%",
+        "alt": "The Regressed Demon Lord is Kind"
     },
     {
         "name": "Keyboard Immortal",
@@ -62,7 +70,8 @@
             "png":"./images/ki.png"
         },
         "number": "8",
-        "likes": "76%"
+        "likes": "76%",
+        "alt": "Keyboard Immortal"
     },
     {
         "name": "Absolute Resonance",
@@ -71,7 +80,8 @@
 
         },
         "number": "9",
-        "likes": "75%"
+        "likes": "75%",
+        "alt": "Absolute Resonance"
     },
     {
         "name": "Almighty Sword Domain",
@@ -79,7 +89,8 @@
             "png":"./images/asd.png"
         },
         "number": "10",
-        "likes": "51%"
+        "likes": "51%",
+        "alt": "Almighty Sword Domain"
     },
     {
         "name": "Against the Gods",
@@ -87,7 +98,8 @@
             "png":"./images/atg.webp"
         },
         "number": "11",
-        "likes": "76%"
+        "likes": "76%",
+        "alt" : "Against the Gods"
     },
     {
         "name": "Star Odyssey",
@@ -95,7 +107,8 @@
             "png":"./images/so.png"
         },
         "number": "12",
-        "likes": "74%"
+        "likes": "74%",
+        "alt": "Star Odyssey"
     }
 ]
 }

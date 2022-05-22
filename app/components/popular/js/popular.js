@@ -3,30 +3,80 @@ fetch("./popular.json") // Fetch the data.json file
   .then((data) => {
 
     // Use the data
-    let popular = data.popularThisWeek; // Get the popular array
+    const popular = data.popularThisWeek; // Get the popular array
     console.log(popular);
-    let btnRight = document.getElementById('btn-right');
-    let btnLeft = document.getElementById('btn-left');
-    popularImages = document.getElementById('popularImages');
-    
-    
-    btnRight.addEventListener('click', (e) => {
-      console.log(e);
-      let number = document.getElementById("number"); // Get the number element from the HTML file 
-      number.innerHTML = popular.number;
-      console.log(number);
-      let likes = document.getElementById("likes"); // Get the likes  from the HTML file
-      likes.innerHTML = popular.likes; // Set the likes
-     // console.log(likes);
-      let images = document.getElementById("images"); // Get the image element from the HTML file
-      images.src = popular.images.png; // Set the image element in HTML file to the image of the popular book
-      console.log(images);
+    /* let btnRight = document.getElementById('btn-right');
+     let btnLeft = document.getElementById('btn-left');*/
+    const popularImages = document.getElementById('popularImages');
+    popular.forEach((item) => {
+      const figure = document.createElement("figure")
+      figure.classList.add('popular__image')
+      figure.classList.add('popular')
+      const picture = document.createElement('img')
+      picture.setAttribute('src', item.images.png)
+      picture.setAttribute('alt', item.alt)
+      picture.classList.add('pic')
+      figure.appendChild(picture)
 
-      let name = document.getElementById("name"); // Get the name element from the HTML file
-      name.innerHTML = popular.name; // Set the name element in HTML file to the bio of the popular book
-      ///console.log(name);
-      btnLeft.addEventListener('click', (e) => {
-        console.log(e);
-      })   
-          .catch ((error) => console.log(error)); // If there is an error, log it to the console
-        }) })
+      const text = document.createElement('div')
+      text.classList.add('popular__text')
+      text.innerText = "Ongoing"
+      figure.appendChild(text)
+
+      const number = document.createElement('div')
+      number.classList.add('popular__text--number')
+      number.innerHTML=item.number
+      figure.appendChild(number)
+
+      const figcaption = document.createElement('figcaption')
+      figcaption.classList.add('popular__caption')
+      figure.appendChild(figcaption)
+
+      const title = document.createElement('p')
+      title.classList.add('title')
+      title.innerHTML=item.name
+      figure.appendChild(title)
+      const likes = document.createElement('p')
+      likes.classList.add('likes')
+      likes.innerHTML=item.likes
+      figure.appendChild(likes)
+
+      popularImages.appendChild(figure)
+    })
+
+
+
+  }).catch(error => console.log(error))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+   btnLeft.addEventListener('click', (e) => {
+    console.log(e);
+  })    */
