@@ -105,14 +105,21 @@ img {
   margin-top: 1rem;
 }
 
-/*.title,
-.likes {
-  margin-top: 0.313rem;
-}*/
+.title{
+  margin-top: -0.5rem;
+}
 
+.title{
+  max-width:148px;
+  font-size: 15px;
+  text-align: center;
+}
+.likes{
+  text-align: center;
+}
 .popular__text--number {
   position: absolute;
-  bottom: 35px;
+  bottom: 45px;
   left: -25px;
   font-size: 550%;
   font-weight: 800; /*    --font-weight-bolder*/

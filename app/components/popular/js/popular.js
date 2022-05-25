@@ -5,13 +5,13 @@ fetch("./popular.json") // Fetch the data.json file
     // Use the data
     const popular = data.popularThisWeek; // Get the popular array
     console.log(popular);
-    /* let btnRight = document.getElementById('btn-right');
-     let btnLeft = document.getElementById('btn-left');*/
+    let btnRight = document.getElementById('btn-right');
+    let btnLeft = document.getElementById('btn-left');
     const popularImages = document.getElementById('popularImages');
     popular.forEach((item) => {
       const figure = document.createElement("figure")
       figure.classList.add('popular__image')
-      figure.classList.add('popular')
+
       const picture = document.createElement('img')
       picture.setAttribute('src', item.images.png)
       picture.setAttribute('alt', item.alt)
@@ -25,7 +25,7 @@ fetch("./popular.json") // Fetch the data.json file
 
       const number = document.createElement('div')
       number.classList.add('popular__text--number')
-      number.innerHTML=item.number
+      number.innerHTML = item.number
       figure.appendChild(number)
 
       const figcaption = document.createElement('figcaption')
@@ -34,49 +34,14 @@ fetch("./popular.json") // Fetch the data.json file
 
       const title = document.createElement('p')
       title.classList.add('title')
-      title.innerHTML=item.name
+      title.innerHTML = item.name
       figure.appendChild(title)
       const likes = document.createElement('p')
       likes.classList.add('likes')
-      likes.innerHTML=item.likes
+      likes.innerHTML = item.likes
       figure.appendChild(likes)
-
       popularImages.appendChild(figure)
     })
-
-
+    
 
   }).catch(error => console.log(error))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-   btnLeft.addEventListener('click', (e) => {
-    console.log(e);
-  })    */
