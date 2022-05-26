@@ -1,3 +1,4 @@
+
 fetch("./popular.json") // Fetch the data.json file
   .then((response) => response.json()) // Parse as JSON and return the response
   .then((data) => {
@@ -5,10 +6,24 @@ fetch("./popular.json") // Fetch the data.json file
     // Use the data
     const popular = data.popularThisWeek; // Get the popular array
     console.log(popular);
-    let btnRight = document.getElementById('btn-right');
-    let btnLeft = document.getElementById('btn-left');
+    const btnRight = document.getElementById('btn-right');
+    const btnLeft = document.getElementById('btn-left');
+    let newArr = popular.slice(0, 6)
+    const moveRight = (orginalArr) => {
+      newArr = orginalArr.slice(6)
+      console.log(newArr)
+    }
+
+    const moveLeft = (orginalArr) => {
+      newArr = orginalArr.slice(0, 6)
+    }
+    btnRight.addEventListener('click', () => moveRight(popular))
+
+    btnLeft.addEventListener('click', () => moveLeft(popular))
+
+
     const popularImages = document.getElementById('popularImages');
-    popular.forEach((item) => {
+    newArr.forEach((item) => {
       const figure = document.createElement("figure")
       figure.classList.add('popular__image')
 
@@ -42,6 +57,6 @@ fetch("./popular.json") // Fetch the data.json file
       figure.appendChild(likes)
       popularImages.appendChild(figure)
     })
-    
+
 
   }).catch(error => console.log(error))
