@@ -1,61 +1,57 @@
-
-
 /* Colors */
 :root {
-    --color-white: rgb(255, 255, 255);
-    --color-light-grey: rgba(153,153,153,255);/*changed*/
-    --color-light-green: rgba(238,238,238,255);/*changed*/
+  --color-white: rgb(255, 255, 255);
+  --color-light-grey: rgba(153, 153, 153, 255); /*changed*/
+  --color-light-green: rgba(238, 238, 238, 255); /*changed*/
 
-    --color-black-50: rgb(49, 49, 49);
-    --color-black-40: rgb(40, 47, 48);
-    --color-black-30: rgb(32, 32, 32);
-    --color-black-20: rgb(19, 20, 21);
-    --color-black-0: rgb(0, 0, 0);
+  --color-black-50: rgb(49, 49, 49);
+  --color-black-40: rgb(40, 47, 48);
+  --color-black-30: rgb(32, 32, 32);
+  --color-black-20: rgb(19, 20, 21);
+  --color-black-0: rgb(0, 0, 0);
 
-    --color-blue: rgb(18, 122, 254);
+  --color-blue: rgb(18, 122, 254);
 
-    --blue-linear-gradient: linear-gradient(131.45deg, #20a7fe, #003aff);
+  --blue-linear-gradient: linear-gradient(131.45deg, #20a7fe, #003aff);
 }
 
 /* Fonts */
 :root {
-    --font-family-open-sans: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
+  --font-family-open-sans: 'Open Sans', Roboto, Helvetica, Arial, sans-serif;
 
-    --font-weight-normal: 400;
-    --font-weight-semi-bold: 600;
-    --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
 
-    --font-size-12: 12px;
-    --font-size-14: 14px;
-    --font-size-16: 16px;
-    --font-size-18: 18px;
-    --font-size-21: 21px;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-21: 21px;
 
-    --line-height-size-1: .95;
-    --line-height-size0: 1;
-    --line-height-size1: 1.05;
-    --line-height-size2: 1.1;
-    --line-height-size3: 1.15;
-    --line-height-size4: 1.2;
-    --line-height-size5: 1.25;
+  --line-height-size-1: 0.95;
+  --line-height-size0: 1;
+  --line-height-size1: 1.05;
+  --line-height-size2: 1.1;
+  --line-height-size3: 1.15;
+  --line-height-size4: 1.2;
+  --line-height-size5: 1.25;
 }
-
-
 
 /* FLOW ratios */
 :root {
-    /* ratio: 1.2; */
-    --size-5: 4.82px;
-    --size-4: 5.78px;
-    --size-3: 6.94px;
-    --size-2: 8.33px;
-    --size-1: 10px
-    --size0: 12px;
-    --size1: 14.4px;
-    --size2: 17.28px;
-    --size3: 20.74px;
-    --size4: 24.8832px;
-    --size5: 29.86px;
-    --size6: 35.83px;
-    /* create more if you need them */
+  /* ratio: 1.2; */
+  --size-5: 4.82px;
+  --size-4: 5.78px;
+  --size-3: 6.94px;
+  --size-2: 8.33px;
+  --size-1: 10px;
+  --size-0: 12px;
+  --size-1: 14.4px;
+  --size-2: 17.28px;
+  --size-3: 20.74px;
+  --size-4: 24.8832px;
+  --size-5: 29.86px;
+  --size-6: 35.83px;
+  /* create more if you need them */
 }
