@@ -1,0 +1,111 @@
+:root {
+    --nav-bar: rgb(49, 49, 49);
+    --body-color: /*#353230;*/
+    #151313f1;
+    --font-family: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
+    --font-weight: 400;
+    --font-color: #ffffff;
+    --border-color: #e5e5e5;
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--font-color);
+}
+
+h1> {
+    font-size: 13px;
+    color: var(--font-color);
+}
+
+h1>.home {
+    opacity: 0.6;
+    font-size: 13px;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+h1>.update {
+    opacity: 1;
+    font-size: 13px;
+    color: var(--font-color);
+}
+
+h1>.home:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1>.update:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: var(--font-weight);
+    line-height: 55px;
+    margin-left: 55px;
+}
+
+h2,
+h3 {
+    line-height: 35px;
+}
+
+.table {
+    display: table;
+    margin: auto auto;
+}
+
+.header {
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.row {
+    display: table-row;
+    /*padding: 0;*/
+}
+
+.rowGroup {
+    display: table-row-group;
+    text-align: left;
+}
+
+.cell {
+    display: table-cell;
+    width: 25%;
+    border-bottom: 0.01rem solid rgba(219, 219, 219, 0.822);
+    padding: 10px 25px;
+}
+
+.row>.cell>p {
+    margin-top: -10px;
+}
+
+.row>.cell>.p-title {
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.row>.cell-title:hover,
+.cell-release:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cell>img {
+    display: inline-block;
+    width: 35px;
+    border: 1px solid #fff;
+}
