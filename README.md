@@ -1,12 +1,33 @@
 # [wuxiaworld.com](wuxiaworld.com) clone - group project
 
-## How to import html and css files
-```
-import { $loadFile } from 'scripts/loadFile.js';
+## CSS style guide
 
-const html = await $loadFile('./footer.html', import.meta.url);
-const css = await $loadFile('./footer.css', import.meta.url);
+1. We will be using utility class first 
+2. We will be using the BEM naming convention
+
+### Utility class naming convension 
+
+```css
+.[property-name]-[value-name] {
+    property-name: value-name;
+}
 ```
+
+## How to create a component
+
+1. Navigate to `app/components/demo`
+2. Copy and paste the folder in the same directory `app/components`
+3. Rename `demo` into your own component
+4. add the following html code into `index.html`
+```
+<script 
+    type="module" 
+    src="/app/components/<your-component-name>/<your-component-name>.js">
+</script>
+```
+5. Add the html tag `<your-component-name></your-component-name>` into `index.html`
+
+And you are good to go! You can now add your html and css code 
 
 ## How to run the server
 1. `cd server`
