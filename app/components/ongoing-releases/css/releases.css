@@ -1,4 +1,4 @@
-@import url('../shared/styles/main.css');
+@import url('./shared/styles/main.css');
 
 main {
   background: var(--color-black-30);

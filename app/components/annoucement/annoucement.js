@@ -1,4 +1,4 @@
-import { $loadFile } from '/shared/scripts/loadFile.js';
+import { $loadFile } from '/app/shared/scripts/loadFile.js';
 
 
 const html = await $loadFile('./annoucement.html', import.meta.url);
