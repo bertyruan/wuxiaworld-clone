@@ -1,3 +1,5 @@
+@import './shared/styles/main.css';
+
 .completed {
   --max-width: 1088px;
 }
