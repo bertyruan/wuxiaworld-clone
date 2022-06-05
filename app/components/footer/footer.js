@@ -1,5 +1,5 @@
 
-import { $loadFile } from '../../shared/scripts/loadFile.js';
+import { $loadFile } from 'scripts/loadFile.js';
 
 
 const html = await $loadFile('./footer.html', import.meta.url);

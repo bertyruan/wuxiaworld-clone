@@ -1,0 +1,56 @@
+/* 
+    This is a template to get you started
+    Create the color utility classes as you go. 
+
+    All values are stored in either
+    - theme.css
+    - variables.css
+*/
+
+/* utility classes */
+.background-color-black{
+  background-color: var(--color-black-10);
+}
+.background-color-blue {
+  background-color: var(--background-color-blue);
+}
+.background-color-blue-20{
+    background-color: var(--color-blue-20);
+}
+
+.background-color-blue-gradient {
+  background-color: var(--blue-linear-gradient);
+}
+
+.background-color-grey{
+  background-color: var( --color-light-grey-20);
+}
+/* Background Themes */
+.background-color-body-theme {
+  background-color: var(--background-color-body);
+}
+
+.background-color-nav-theme {
+  background-color: var(--nav-color);
+}
+
+.background-color-announcement-theme {
+  background-color: var(--background-color-announcements);
+}
+
+.background-color-ongoing-releases-theme {
+  background-color: var(--background-color-ongoing-releases);
+}
+
+/* Font color Themes */
+.font-color-body-theme {
+  color: var(--font-color-body);
+}
+
+/*Popular section*/
+.font-color-white{
+  color: var(  --color-white);
+}
+.font-color-black{
+  color: var(  --color-black-0);
+}

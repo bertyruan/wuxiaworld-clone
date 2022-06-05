@@ -1,0 +1,114 @@
+{
+"popularThisWeek": [
+{
+    "name": "Overgearder",
+    "images": {
+        "png":"./assets/images/pic.png"
+    },
+    "number": "1",
+    "likes": "88%",
+    "alt":"Overgearder"
+},
+{
+    "name": "Emperor's Domination",
+    "images": {
+        "png":"./assets/images/emperor.png"
+    },
+    "number": "2",
+    "likes": "76%",
+    "alt": "Emperor's Domination"
+},
+{
+    "name": "Nine Star Hegemon Body Art",
+    "images": {
+        "png":"./assets/images/nshba.png"
+    },
+    "number": "3",
+    "likes": "70%",
+    
+    "alt": "Nine Star Hegemon Body Art"
+},
+{
+    "name": "Martial God Asura",
+    "images": {
+        "png":"./assets/images/mga.webp"
+    },
+    "number": "4",
+    "likes": "47%",
+    "alt": "Martial God Asura"
+},
+{
+    "name": "Invincible",
+    "images": {
+        "png":"./assets/images/inv.png"
+    },
+    "number": "5",
+    "likes": "56%",
+    "alt": "Invincible"
+},
+{
+    "name": "Second Life Ranker",
+    "images": {
+        "png":"./assets/images/slr.webp"
+    },
+    "number": "6",
+    "likes": "80%",
+    "alt": "Second Life Ranker"
+},
+ {
+        "name": "The Regressed Demon Lord is Kind",
+        "images": {
+            "png":"./assets/images/rdk.png"
+        },
+        "number": "7",
+        "likes": "92%",
+        "alt": "The Regressed Demon Lord is Kind"
+    },
+    {
+        "name": "Keyboard Immortal",
+        "images": {
+            "png":"./assets/images/ki.png"
+        },
+        "number": "8",
+        "likes": "76%",
+        "alt": "Keyboard Immortal"
+    },
+    {
+        "name": "Absolute Resonance",
+        "images": {
+            "png":"./assets/images/ar.webp"
+
+        },
+        "number": "9",
+        "likes": "75%",
+        "alt": "Absolute Resonance"
+    },
+    {
+        "name": "Almighty Sword Domain",
+        "images": {
+            "png":"./assets/images/asd.png"
+        },
+        "number": "10",
+        "likes": "51%",
+        "alt": "Almighty Sword Domain"
+    },
+    {
+        "name": "Against the Gods",
+        "images": {
+            "png":"./assets/images/atg.webp"
+        },
+        "number": "11",
+        "likes": "76%",
+        "alt" : "Against the Gods"
+    },
+    {
+        "name": "Star Odyssey",
+        "images": {
+            "png":"./assets/images/so.png"
+        },
+        "number": "12",
+        "likes": "74%",
+        "alt": "Star Odyssey"
+    }
+]
+}
