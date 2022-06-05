@@ -1,17 +1,19 @@
+
+
 /* Colors */
 :root {
     --color-white: rgb(255, 255, 255);
-    --color-light-grey: rgb(246, 246, 246);
-    --color-light-grey-20: rgb(122, 122, 131);
-    --color-light-green: rgb(240, 249, 250);
+    --color-light-grey: rgba(153,153,153,255);/*changed*/
+    --color-light-green: rgba(238,238,238,255);/*changed*/
+
     --color-black-50: rgb(49, 49, 49);
     --color-black-40: rgb(40, 47, 48);
     --color-black-30: rgb(32, 32, 32);
     --color-black-20: rgb(19, 20, 21);
-    --color-black-10: rgb(22, 22, 22);
     --color-black-0: rgb(0, 0, 0);
+
     --color-blue: rgb(18, 122, 254);
-    --color-blue-20: rgb(28, 28, 234);
+
     --blue-linear-gradient: linear-gradient(131.45deg, #20a7fe, #003aff);
 }
 
@@ -22,7 +24,6 @@
     --font-weight-normal: 400;
     --font-weight-semi-bold: 600;
     --font-weight-bold: 700;
-    --font-weight-bolder: 800;
 
     --font-size-12: 12px;
     --font-size-14: 14px;
@@ -48,7 +49,8 @@
     --size-4: 5.78px;
     --size-3: 6.94px;
     --size-2: 8.33px;
-    --size-1: 10px --size0: 12px;
+    --size-1: 10px
+    --size0: 12px;
     --size1: 14.4px;
     --size2: 17.28px;
     --size3: 20.74px;
