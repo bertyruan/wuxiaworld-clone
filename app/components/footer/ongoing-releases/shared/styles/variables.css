@@ -4,11 +4,13 @@
   --color-light-grey: rgba(153, 153, 153, 255); /*changed*/
   --color-light-green: rgba(238, 238, 238, 255); /*changed*/
 
-  --color-black-50: rgb(49, 49, 49);
+  --color-black-50: #313131;
   --color-black-40: rgb(40, 47, 48);
   --color-black-30: rgb(32, 32, 32);
   --color-black-20: rgb(19, 20, 21);
   --color-black-0: rgb(0, 0, 0);
+
+  --color-white-10: rgb(182, 182, 182);
 
   --color-blue: rgb(18, 122, 254);
 
