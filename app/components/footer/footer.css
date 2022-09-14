@@ -23,6 +23,11 @@ body {
   color: white;
 }
 
+.table-section {
+  max-width: 1008px;
+  margin: 0 auto;
+}
+
 .table__header {
   padding: 20px 0;
   display: flex;
@@ -80,7 +85,6 @@ body {
 
 footer {
   width: 100%;
-  max-width: 1200px;
   padding: 18px 22px;
   background: var(--color-black-0);
 }
@@ -194,10 +198,6 @@ p {
 }
 
 @media (min-width: 900px) {
-  .table {
-    max-width: 1200px;
-  }
-
   .table__header span {
     display: none;
   }
